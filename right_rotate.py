@@ -4,6 +4,6 @@ def right_rotate(arr, d):
     return rotated
 
 arr =list(map(int,input("ENTER ARRAY ELEMENTS ").split()))
-d = 2
+d = int(input())
 rotated_arr = right_rotate(arr, d)
 print("Rotated Array:", rotated_arr)
