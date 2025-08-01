@@ -3,7 +3,7 @@ def left_rotate(arr, d):
     rotated = arr[d % n:] + arr[:d % n]
     return rotated
 
-arr = list(map(int,input().split())
+arr = list(map(int,input().split()))
 d = int(input())
 rotated_arr = left_rotate(arr, d)
 print("Rotated Array:", rotated_arr)
